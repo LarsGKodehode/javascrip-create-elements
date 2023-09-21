@@ -1,0 +1,31 @@
+/*
+  My goto styling for a three part web page with
+  a <header>, <main> and <footer> section
+*/
+body {
+  margin: 0px;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.page > main {
+  flex-grow: 1;
+}
+
+/* Specific styling for our application */
+#cardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  list-style: none;
+}
+
+.card {
+  background-color: cadetblue;
+  min-width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+}
